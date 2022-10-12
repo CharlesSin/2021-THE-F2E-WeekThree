@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TBus</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <nav>
+        <div class="navbar-right">
+            <span class="navbar-right-text">EN</span>
+        </div>
+    </nav>
+    <div class="container">
+
+        <ul class="sidebar">
+            <li class="logo">
+                <span class="small">T</span>
+                <span class="text">BUS</span>
+            </li>
+            <li class="sidebar-item">
+                <a href="javascript:void(0)" onclick="comingsoon()">
+                    <img class="sidebar-item-images" src="./icon/park-outline_map-road-two.svg" alt="">
+                    <span class="sidebar-item-text">公車路線動態</span>
+                </a>
+            </li>
+            <li class="sidebar-item">
+                <a href="javascript:void(0)" onclick="comingsoon()">
+                    <img class="sidebar-item-images" src="./icon/twotone-route.svg" alt="">
+                    <span class="sidebar-item-text">公車路線規劃</span>
+                </a>
+            </li>
+            <li class="sidebar-item">
+                <a href="javascript:void(0)" onclick="comingsoon()">
+                    <img class="sidebar-item-images" src="./icon/grommet-icons_announce.svg" alt="">
+                    <span class="sidebar-item-text">最新公告</span>
+                </a>
+            </li>
+        </ul>
+
+        <div class="main-content">
+            <div class="banner-wrapper main">
+                <div class="banner-wrapper-title">
+                    <span class="banner-wrapper-title-text">尋找你需要的公車資訊</span>
+                </div>
+                <div class="banner-wrapper-cover">
+                    <form action="" class="bus__form">
+                        <span class="bus-form-title">尋找公車</span>
+                        <div class="bus-form-input">
+                            <input type="text" class="bus-form-input-box" placeholder="選擇縣市">
+                        </div>
+                        <div class="bus-form-input">
+                            <input type="text" class="bus-form-input-box" placeholder="輸入公車名">
+                        </div>
+                        <button class="search-submit" onclick="comingsoon()">
+                            <span class="search-submit-text">搜尋</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="row">
+                <a href="javascript:void(0)" class="banner-wrapper second" onclick="comingsoon()">
+                    <div class="title-right">
+                        <span class="title-right-text">新冠肺炎</span>
+                        <span class="title-right-text">公車注意事項</span>
+                    </div>
+                    <div class="cover-right"></div>
+                </a>
+
+                <a href="javascript:void(0)" class="banner-wrapper third" onclick="comingsoon()">
+                    <div class="title-left">
+                        <span class="title-left-text">雙北定期票</span>
+                        <span class="title-left-text">資訊專區</span>
+                    </div>
+                    <div class="cover-left"></div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const comingsoon = () => {
+            alert('API Expired')
+        }
+    </script>
+</body>
+
+</html>

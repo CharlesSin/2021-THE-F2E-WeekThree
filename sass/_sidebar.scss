@@ -1,0 +1,61 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 164px;
+  height: calc(100vh - 70px);
+  position: absolute;
+  top: -70px;
+
+  .logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    margin-top: 24px;
+    margin-bottom: 42px;
+    cursor: pointer;
+
+    .small {
+      font-size: 26px;
+      font-weight: bold;
+      color: #b8d41c;
+    }
+
+    .text {
+      font-size: 40px;
+      font-weight: bold;
+      color: #d3381c;
+    }
+  }
+
+  &-item {
+    display: block;
+    width: 100%;
+    margin-bottom: 75px;
+
+    a {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    &-images {
+      width: 48px;
+      height: 48px;
+      margin-bottom: 7px;
+    }
+
+    &-text {
+      margin-top: 7px;
+      font-size: 18px;
+      line-height: 22px;
+      text-align: center;
+      font-feature-settings: "tnum" on, "lnum" on;
+      color: #d3381c;
+    }
+  }
+}
